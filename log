@@ -1,0 +1,1427 @@
+DEBUG 15/07/2019 15:08:34 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:09:22 Servlets.InsertServlet:18 (init) - InsertServlet is initialized
+DEBUG 15/07/2019 15:09:22 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:09:23 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:09:23 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Ginger and salary = 2500.3
+DEBUG 15/07/2019 15:09:54 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:09:54 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:09:55 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:09:55 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:10:05 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:10:05 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:10:05 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Ginger and salary = 2004.3
+DEBUG 15/07/2019 15:10:26 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:10:26 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:10:27 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:10:27 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:10:33 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:10:33 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:10:33 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Ginger and salary = 2010.0
+DEBUG 15/07/2019 15:15:46 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:15:59 Servlets.InsertServlet:18 (init) - InsertServlet is initialized
+DEBUG 15/07/2019 15:15:59 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:16:00 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:16:00 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Ross and salary = 3000.0
+DEBUG 15/07/2019 15:16:28 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:16:28 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:16:28 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Ross and salary = 3000.0
+DEBUG 15/07/2019 15:16:30 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:16:30 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:16:30 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Ross and salary = 3000.0
+DEBUG 15/07/2019 15:16:34 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 15:16:34 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 15:16:34 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:16:34 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:16:34 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:16:34 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:16:44 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:16:44 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:16:44 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:16:44 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:16:44 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:16:44 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+INFO  15/07/2019 15:19:24 Servlets.ResultServlet:29 (service) - Go to doGetById method
+DEBUG 15/07/2019 15:19:26 Servlets.ByIdServlet:23 (init) - ByIdServlet is initialized
+INFO  15/07/2019 15:19:26 Servlets.ByIdServlet:51 (getEmployee) - Start connection with database
+INFO  15/07/2019 15:19:26 Servlets.ByIdServlet:54 (getEmployee) - applicationContext file was loaded: database connection on
+DEBUG 15/07/2019 15:19:26 Model.EmployeeDao:39 (getEmployeeById) - Searching for employee id = 9
+DEBUG 15/07/2019 15:19:26 Model.EmployeeDao:45 (mapRow) - select method is running
+DEBUG 15/07/2019 15:19:26 Model.EmployeeDao:50 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:19:36 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 15:19:36 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 15:19:36 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:19:36 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 15:19:36 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 15:19:36 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:22:34 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:22:34 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:22:34 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:22:34 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:22:34 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:22:34 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:35 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:35 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:35 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:35 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:35 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:27:35 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:36 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:36 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:36 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:36 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:36 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:27:36 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:37 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:27:37 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:41 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:41 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:41 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:41 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:41 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:29:41 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:29:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:43 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:43 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:43 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:43 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:43 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:29:43 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:58 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:58 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:58 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:58 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 15:29:58 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 15:29:58 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 15:30:27 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:30:30 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:30:30 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:30:32 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:30:32 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:33:06 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:33:06 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 15:33:10 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 15:33:12 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 15:33:12 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:05:43 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:06:01 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:06:01 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:06:01 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = 4434sfdarefds and salary = 322.0
+DEBUG 15/07/2019 16:06:14 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 16:06:14 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 16:06:14 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:06:14 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:06:14 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 16:06:14 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 16:14:57 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:15:18 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:15:18 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:15:18 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Superman and salary = 4000.0
+DEBUG 15/07/2019 16:15:45 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:15:45 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:15:45 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Superman and salary = 4000.0
+DEBUG 15/07/2019 16:15:53 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:16:30 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:16:30 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:16:30 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Shreck and salary = 1000.0
+DEBUG 15/07/2019 16:19:48 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:19:57 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:19:57 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:19:57 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = fd and salary = 788.0
+DEBUG 15/07/2019 16:23:49 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:23:54 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:23:54 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:23:54 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = trewr and salary = 3242.0
+DEBUG 15/07/2019 16:24:10 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 16:24:10 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 16:24:10 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 12 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 15 name = fd salary = 788.0
+DEBUG 15/07/2019 16:24:10 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:10 Model.EmployeeDao:31 (mapRow) - result: id = 16 name = trewr salary = 3242.0
+DEBUG 15/07/2019 16:24:10 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:38 (service) - info to update name = Cammi
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:24:17 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:24:17 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:24:17 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:24:17 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:24:17 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 16:24:17 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:24:26 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 16:24:26 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 16:24:26 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammi salary = 1000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 12 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 15 name = fd salary = 788.0
+DEBUG 15/07/2019 16:24:26 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:24:26 Model.EmployeeDao:31 (mapRow) - result: id = 16 name = trewr salary = 3242.0
+DEBUG 15/07/2019 16:24:26 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 16:26:05 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 16:26:05 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 16:26:05 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammi salary = 1000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 12 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 15 name = fd salary = 788.0
+DEBUG 15/07/2019 16:26:05 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:26:05 Model.EmployeeDao:31 (mapRow) - result: id = 16 name = trewr salary = 3242.0
+DEBUG 15/07/2019 16:26:05 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:26:10 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:26:10 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:26:11 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:26:11 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:26:11 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:26:11 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 16:26:11 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:27:12 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 16:27:12 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 16:27:12 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 12 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 15 name = fd salary = 788.0
+DEBUG 15/07/2019 16:27:12 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:12 Model.EmployeeDao:31 (mapRow) - result: id = 16 name = trewr salary = 3242.0
+DEBUG 15/07/2019 16:27:12 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:26 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:30 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 1
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Cammille
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 1000.0
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 1
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 2
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Mack
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 2
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 3
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Jane
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 3000.0
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 3
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 4
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Andrew
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 2500.0
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 4
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:36 (service) - info to update id = 5
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:38 (service) - info to update name = Alex
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:40 (service) - info to update salary = 1700.0
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:54 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:58 (doPost) - Try to update database
+DEBUG 15/07/2019 16:27:38 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 5
+DEBUG 15/07/2019 16:27:38 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 16:27:44 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 16:27:44 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 16:27:44 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:27:44 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:44 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 12 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 15 name = fd salary = 788.0
+DEBUG 15/07/2019 16:27:45 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 16:27:45 Model.EmployeeDao:31 (mapRow) - result: id = 16 name = trewr salary = 3242.0
+DEBUG 15/07/2019 16:27:45 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 16:48:42 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:48:57 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:48:57 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:48:57 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Vlad and salary = 2000.0
+DEBUG 15/07/2019 16:52:41 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:52:41 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:52:41 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Vlad and salary = 2000.0
+DEBUG 15/07/2019 16:54:39 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:54:39 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:54:39 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Vlad and salary = 2000.0
+DEBUG 15/07/2019 16:54:46 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:54:59 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:54:59 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:54:59 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Manny and salary = 1023.0
+DEBUG 15/07/2019 16:56:16 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 16:56:25 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 16:56:25 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 16:56:25 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Garfield and salary = 2012.0
+DEBUG 15/07/2019 17:03:49 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 17:03:49 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 17:03:49 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Garfield and salary = 2012.0
+DEBUG 15/07/2019 17:03:52 Servlets.ResultServlet:37 (service) - Go to insert method
+DEBUG 15/07/2019 17:03:59 Servlets.InsertServlet:23 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 17:03:59 Servlets.InsertServlet:28 (service) - Try to insert into database
+DEBUG 15/07/2019 17:03:59 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Paula and salary = 3423.0
+DEBUG 15/07/2019 17:06:13 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 17:06:13 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:06:13 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 9 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 10 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 11 name = 4434sfdarefds salary = 322.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 12 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 15 name = fd salary = 788.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 16 name = trewr salary = 3242.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 18 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 19 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:06:13 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:06:13 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:06:13 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:07:28 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 17:07:28 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:07:28 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:07:28 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:28 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:07:28 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:07:31 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 17:07:31 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:07:31 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:07:31 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:07:31 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:07:31 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:09:17 Servlets.ResultServlet:33 (service) - Go to doGetAll method
+INFO  15/07/2019 17:09:17 Servlets.ResultServlet:55 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:09:17 Servlets.ResultServlet:58 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:09:17 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:09:17 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:09:17 Servlets.ResultServlet:73 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:13:21 Servlets.ByIdServlet:69 (destroy) - ByIdServlet is destroyed
+DEBUG 15/07/2019 17:13:49 Servlets.ResultServlet:35 (service) - Go to doGetAll method
+INFO  15/07/2019 17:13:49 Servlets.ResultServlet:57 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:13:50 Servlets.ResultServlet:60 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:13:50 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:13:51 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:13:51 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:13:51 Servlets.ResultServlet:78 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:27 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:33 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:37 (service) - info to update id = 23
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:39 (service) - info to update name = Paula
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:41 (service) - info to update salary = 3423.0
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:13:57 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 23
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:37 (service) - info to update id = 22
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:13:57 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 22
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:37 (service) - info to update id = 21
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:13:57 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 21
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:37 (service) - info to update id = 20
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:39 (service) - info to update name = Manny
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:41 (service) - info to update salary = 1023.0
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:13:57 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 20
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:37 (service) - info to update id = 17
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:39 (service) - info to update name = Vlad
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:41 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 17:13:57 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:13:58 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:13:58 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 17
+DEBUG 15/07/2019 17:13:58 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:27 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:33 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:37 (service) - info to update id = 23
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:39 (service) - info to update name = Paula
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:41 (service) - info to update salary = 3423.0
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:14:27 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 23
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:37 (service) - info to update id = 22
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:14:27 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 22
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:37 (service) - info to update id = 21
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:14:27 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 21
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:37 (service) - info to update id = 20
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:39 (service) - info to update name = Manny
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:41 (service) - info to update salary = 1023.0
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:14:27 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 20
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:37 (service) - info to update id = 17
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:39 (service) - info to update name = Vlad
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:41 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:14:27 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 17
+DEBUG 15/07/2019 17:14:27 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+INFO  15/07/2019 17:25:38 Servlets.ResultServlet:31 (service) - Go to doGetById method
+DEBUG 15/07/2019 17:25:41 Servlets.ByIdServlet:23 (init) - ByIdServlet is initialized
+INFO  15/07/2019 17:25:41 Servlets.ByIdServlet:51 (getEmployee) - Start connection with database
+INFO  15/07/2019 17:25:41 Servlets.ByIdServlet:54 (getEmployee) - applicationContext file was loaded: database connection on
+DEBUG 15/07/2019 17:25:41 Model.EmployeeDao:39 (getEmployeeById) - Searching for employee id = 5
+DEBUG 15/07/2019 17:25:41 Model.EmployeeDao:45 (mapRow) - select method is running
+DEBUG 15/07/2019 17:25:41 Model.EmployeeDao:50 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:25:52 Servlets.ResultServlet:35 (service) - Go to doGetAll method
+INFO  15/07/2019 17:25:52 Servlets.ResultServlet:57 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:25:52 Servlets.ResultServlet:60 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:25:52 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:25:52 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:25:52 Servlets.ResultServlet:78 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:27 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:33 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:37 (service) - info to update id = 23
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:39 (service) - info to update name = Paula
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:41 (service) - info to update salary = 3423.0
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:00 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 23
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:37 (service) - info to update id = 22
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:00 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 22
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:37 (service) - info to update id = 21
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:00 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 21
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:37 (service) - info to update id = 20
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:39 (service) - info to update name = Manny
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:41 (service) - info to update salary = 1023.0
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:00 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 20
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:37 (service) - info to update id = 17
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:39 (service) - info to update name = Vlad
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:41 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:00 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 17
+DEBUG 15/07/2019 17:26:00 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+INFO  15/07/2019 17:26:05 Servlets.ResultServlet:31 (service) - Go to doGetById method
+INFO  15/07/2019 17:26:08 Servlets.ByIdServlet:51 (getEmployee) - Start connection with database
+INFO  15/07/2019 17:26:08 Servlets.ByIdServlet:54 (getEmployee) - applicationContext file was loaded: database connection on
+DEBUG 15/07/2019 17:26:08 Model.EmployeeDao:39 (getEmployeeById) - Searching for employee id = 7
+DEBUG 15/07/2019 17:26:08 Model.EmployeeDao:45 (mapRow) - select method is running
+DEBUG 15/07/2019 17:26:08 Model.EmployeeDao:50 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:26:11 Servlets.ResultServlet:35 (service) - Go to doGetAll method
+INFO  15/07/2019 17:26:11 Servlets.ResultServlet:57 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:26:11 Servlets.ResultServlet:60 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:26:11 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:26:11 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:26:11 Servlets.ResultServlet:78 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:27 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:33 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:37 (service) - info to update id = 23
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:39 (service) - info to update name = Paula
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:41 (service) - info to update salary = 3423.0
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:12 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 23
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:37 (service) - info to update id = 22
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:12 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 22
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:37 (service) - info to update id = 21
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:12 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 21
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:37 (service) - info to update id = 20
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:39 (service) - info to update name = Manny
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:41 (service) - info to update salary = 1023.0
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:12 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 20
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:37 (service) - info to update id = 17
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:39 (service) - info to update name = Vlad
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:41 (service) - info to update salary = 2000.0
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:26:12 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 17
+DEBUG 15/07/2019 17:26:12 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+INFO  15/07/2019 17:26:23 Servlets.ResultServlet:31 (service) - Go to doGetById method
+INFO  15/07/2019 17:26:26 Servlets.ByIdServlet:51 (getEmployee) - Start connection with database
+INFO  15/07/2019 17:26:26 Servlets.ByIdServlet:54 (getEmployee) - applicationContext file was loaded: database connection on
+DEBUG 15/07/2019 17:26:26 Model.EmployeeDao:39 (getEmployeeById) - Searching for employee id = 4
+DEBUG 15/07/2019 17:26:26 Model.EmployeeDao:45 (mapRow) - select method is running
+DEBUG 15/07/2019 17:26:26 Model.EmployeeDao:50 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:31:28 Servlets.ResultServlet:39 (service) - Go to insert method
+DEBUG 15/07/2019 17:31:37 Servlets.InsertServlet:19 (init) - InsertServlet is initialized
+DEBUG 15/07/2019 17:31:37 Servlets.InsertServlet:24 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 17:31:37 Servlets.InsertServlet:29 (service) - Try to insert into database
+DEBUG 15/07/2019 17:31:37 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = Michaela and salary = 4000.0
+DEBUG 15/07/2019 17:32:08 Servlets.ResultServlet:39 (service) - Go to insert method
+DEBUG 15/07/2019 17:32:18 Servlets.InsertServlet:24 (service) - In the service method from InsertServlet
+DEBUG 15/07/2019 17:32:18 Servlets.InsertServlet:29 (service) - Try to insert into database
+DEBUG 15/07/2019 17:32:18 Model.EmployeeDao:69 (insertEmployee) - Insert employee with name = George and salary = 2390.0
+DEBUG 15/07/2019 17:32:40 Servlets.ResultServlet:35 (service) - Go to doGetAll method
+INFO  15/07/2019 17:32:40 Servlets.ResultServlet:57 (doGetAll) - Start connection with database in doGetAll method
+INFO  15/07/2019 17:32:40 Servlets.ResultServlet:60 (doGetAll) - applicationContext file was loaded: database connection on
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:21 (getAllEmployeesRowMapper) - Get all employees method
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 1 name = Cammille salary = 1000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 2 name = Mack salary = 2000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 3 name = Jane salary = 3000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 4 name = Andrew salary = 2500.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 5 name = Alex salary = 1700.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 6 name = Vausse salary = 4000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 7 name = Ginger salary = 2010.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 8 name = Ross salary = 3000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 13 name = Superman salary = 4000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 14 name = Shreck salary = 1000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 17 name = Vlad salary = 2000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 20 name = Manny salary = 1023.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 21 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 22 name = Garfield salary = 2012.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 23 name = Paula salary = 3423.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 24 name = Michaela salary = 4000.0
+DEBUG 15/07/2019 17:32:40 Model.EmployeeDao:26 (mapRow) - select method is running
+INFO  15/07/2019 17:32:40 Model.EmployeeDao:31 (mapRow) - result: id = 25 name = George salary = 2390.0
+DEBUG 15/07/2019 17:32:40 Servlets.ResultServlet:78 (doGetAll) - Parameters were set
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:27 (service) - UpdateServlet's service method
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:33 (service) - get parameters in UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:37 (service) - info to update id = 25
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:39 (service) - info to update name = George
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:41 (service) - info to update salary = 2390.0
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:32:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 25
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:37 (service) - info to update id = 24
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:39 (service) - info to update name = Michaela
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:41 (service) - info to update salary = 4000.0
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:32:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 24
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:37 (service) - info to update id = 23
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:39 (service) - info to update name = Paula
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:41 (service) - info to update salary = 3423.0
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:32:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 23
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:37 (service) - info to update id = 22
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:32:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 22
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:37 (service) - info to update id = 21
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:39 (service) - info to update name = Garfield
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:41 (service) - info to update salary = 2012.0
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:56 (doPost) - In the doPost method from UpdateServlet
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:60 (doPost) - Try to update database
+DEBUG 15/07/2019 17:32:42 Model.EmployeeDao:60 (updateEmployee) - Update employee with id = 21
+DEBUG 15/07/2019 17:32:42 Servlets.UpdateServlet:45 (service) - exit doPost in UpdateServlet
+DEBUG 15/07/2019 17:35:26 Servlets.ByIdServlet:69 (destroy) - ByIdServlet is destroyed
